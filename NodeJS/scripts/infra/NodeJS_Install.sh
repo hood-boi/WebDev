@@ -1,5 +1,6 @@
 #!/bin/sh
 
+cd ~
 rm -rf .node/
 wget https://nodejs.org/dist/v14.4.0/node-v14.4.0-linux-x64.tar.xz
 tar -xf node-v14.4.0-linux-x64.tar.xz
